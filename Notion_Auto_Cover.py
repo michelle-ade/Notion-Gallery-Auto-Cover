@@ -90,6 +90,16 @@ def update_cover_art_for_page(page):
             }
         }
     )
+    
+    # Check the 'Cover' checkbox
+    notion.pages.update(
+        page["id"],
+        properties={
+            "Cover": {
+                "checkbox": True
+            }
+        }
+    )
 
     
     print(f"✅ Updated cover for: {song_title}")
