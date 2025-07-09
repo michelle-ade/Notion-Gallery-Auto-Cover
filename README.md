@@ -4,6 +4,8 @@ This script automatically adds album cover art to a Notion database of songs by 
 It was created to streamline the process of documenting music collections, 
 and particularly to make my Piano Repertoire more visually appealing 😌
 
+![Notion Gallery](gallery_example.png)
+
 ### 🔧 Features
 - Fetches cover art for songs using their **song title + album name**.
 - Skips entries that are already marked as done with a `Cover` checkbox.
